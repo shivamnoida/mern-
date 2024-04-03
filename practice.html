@@ -4,166 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
 </head>
 <body>
-    <h1>this is my first page</h1>
-    <hr> 
-    <h2>hello  <span style="color: red;"> india</span></h2>
-    <hr>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nemo debitis maiores quidem sapiente eveniet eligendi consequuntur aut perspiciatis tempore.</p>
-    <h1><u>prepration</u></h1>
-    <a href="https://www.geeksforgeeks.org/placements-gq/">geeksforgeeks</a> <br>
-    <a href="https://www.javatpoint.com/">javatpoint</a><br>
-    <a href="https://www.w3schools.com/html/">w3schools</a>
-    <hr>
-    <h2>images and images</h2>
-    <p>if you want to know more about me click here <a href="/html/aboutme.html">click here</a></p>
-    <img src="/html/img1.jpg" alt="image1" width="400px" height="500px"  >
-    <img src="/html/img1.jpg" alt="img2" width="400px" height="500px">
-    <hr>
-    <h4><del>not at all</del> <ins>someone</ins></h4>
-    <hr>
-    <h2>list portsion</h2>
-    <h4>orderlist</h4>
-    <ol>
-        <li>ram</li>
-        <li>shyam</li>
-        <li>sweeta</li>
-        <li>mohan</li>
-        <li>raddha</li>
-    </ol>
-    <ol start="212">
-        <li>ram</li>
-        <li>shyam</li>
-        <li>sweeta</li>
-        <li>mohan</li>
-        <li>raddha</li>
-    </ol>
-    <h4>unorderlist</h4>
-    <ul>
-        <li>c</li>
-        <li>c++</li>
-        <li>java</li>
-        <li>phyton</li>
-        <li>c sharp</li>
+    <header>
+    <nav>
+        <h2>Shivam</h2>
+        <a href="">Home</a>
+        <a href="">About us</a>
+        <a href="">services</a>
+        <a href="">experience</a>
+        <a href=""> contact us</a>
+    </nav>
+</header>
+<section>
+    <div class="content">
+        <h2>Hii There ,I'm</h2>
+        <span>Shivam Sharma</span>
+        <h2>A java developer |</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, nulla. Labore, totam porro. Officiis repudiandae voluptatibus accusamus praesentium, iste architecto?</p>
+        <button>contact me</button>
 
-        <li>javascript</li>
-    </ul>
-    <ul type="square" >
-        <li>c</li>
-        <li>c++</li>
-        <li>java</li>
-        <li>phyton</li>
-        <li>c sharp</li>
+    </div>
+    <div class="img">
+        <img src="/css/Screenshot 2024-02-21 090651.png" alt="">
+    </div>
+</section>
+    <footer>
+       <h2>Social media</h2>
+<a href=""><img src="/css/facebook.png" alt=""></a>
+<a href=""><img src="/css/snap.png" alt=""></a>
+<a href=""><img src="/css/twitter.png" alt=""></a>
+<a href=""><img src="/css/linkedin.png" alt=""></a>
 
-        <li>javascript</li>
-    </ul>
-    <hr>
-    <h2>table </h2>
-    <table border="5">
-        <th>Name</th>
-        <th>rollno</th>
-        <th>fee</th>
-        <tr>
-            <td>ram </td>
-             <td>12</td>
-             <td>12000</td>
-        </tr>
-        <tr>
-            <td>shyam</td>
-            <td>13</td>
-            <td>13000</td>
-        </tr>
-        <tr>
-            <td>mohan</td>
-            <td>14</td>
-            <td>15000</td>
-        </tr>
-        <tr><td colspan="2">total</td>
-        <td>40000</td></tr>
-        <tr><td>duedate</td>
-        <td colspan="2">12/10/2024</td></tr>
-        
-
-    </table>
-    <p>HTML stands for <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
-    <hr><hr>
-    <h2>form</h2>
-    <form action="submit.php" method="POST">
-
-        <!-- Input field for name -->
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required> <!-- Text input -->
-        </div>
-
-        <!-- Input field for email -->
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="ENter your email" required> <!-- Email input -->
-        </div>
-
-        <!-- Dropdown for gender selection -->
-        <div>
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender"> <!-- Select dropdown -->
-                <option value="male">Male</option> <!-- Option 1 -->
-                <option value="female">Female</option> <!-- Option 2 -->
-                <option value="other">Other</option> <!-- Option 3 -->
-            </select>
-        </div>
-<div> <input type="checkbox" id="music" name="interest[]" value="Music">
-    <label for="music">Music</label><br>
-
-    <input type="checkbox" id="sports" name="interest[]" value="Sports">
-    <label for="sports">Sports</label><br>
-
-    <input type="checkbox" id="books" name="interest[]" value="Books">
-    <label for="books">Books</label><br>
-
-    <input type="checkbox" id="movies" name="interest[]" value="Movies">
-    <label for="movies">Movies</label><br>
-
-    <input type="checkbox" id="travel" name="interest[]" value="Travel">
-    <label for="travel">Travel</label><br></div>
-        <!-- Textarea for message -->
-        <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" cols="30" required placeholder="ENter your message"></textarea> <!-- Textarea -->
-        </div>
-
-        <!-- Checkbox for subscription -->
-        <div>
-            <label for="subscribe">Subscribe to Newsletter:</label>
-            <input type="checkbox" id="subscribe" name="subscribe" > <!-- Checkbox -->
-        </div>
-
-        <!-- File upload input -->
-        <div>
-            <label for="upload">Upload File:</label>
-            <input type="file" id="upload" name="upload"> <!-- File input -->
-        </div>
-        <div><!-- Radio buttons -->
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-            </div>
-
-        <!-- Submit and reset buttons -->
-        <button type="submit">Submit</button> <!-- Submit button -->
-        <button type="reset">Reset</button> <!-- Reset button -->
-
-    </form>
-    <hr><hr>
-    <iframe src="https://www.javatpoint.com/" frameborder="0" height="600px" width="500px"></iframe>
-<footer>
-   <h1>social media</h1>
-    <a href="https://www.facebook.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAA9lBMVEX+/v4JZv/+/vz//f4IZ/4IZ/8IZf/9//79//z5//8IaP3//f39/v/8//wAWNf8//3U7/kAYPj1//+Gq+Du///K5/bJ7PUAY/cAX+4AWuP+/vcAXfEHaPoAW+MAWdXh+PwAVtkXZM0AW9iWwei01++ly+wAV+QAXupsoN/E4PMAYNqOsuUAYutQgtEAWc5YidFAedEub9cbZdc3dNJ/sdxyo9vl//+WvegNXswwasqkzutViM7B5/e82vJpmt05ectGiN5XlucXaNay2OsATcKPrtPl8vdkpOd0qtvF6viAos4AR7eey+tFfclRg8gpZMaiu9cAS6mf0ZMYAAAPTklEQVR4nO1dCXvbtrIlByAAbqJEU4FE0ZJca7HreEm8KU5i97Z9ecm9N3Xf//8zb4ayk1giKcpZXCo8TRO3lvkJJzODM4PByDBq1KhRo0aNGjVq1KhRo0aNGjVq1KhRo0aNGpsMIKRfSel5zHXxK/yTsad9WxUAYyl3jNVkZcIjpF9JmRoXflUTlYNPbgipMQUE47MbSvzXe7p39w8CYIBSKo7jlC47DKPBHFEY2mRphoukSaCvCPJJ3+2TIQDyNaXA85AsOxrsjw/2jk9evPwV0X/54uTw+mC834xs6SuIbRsMhfHsJyWLgTI8tBgAP2yO9052fum0tNYmT+Fo3Wq1Jo2Xp3vjdhT46KjSAPhZg77CQI6WIsP9s5v+RAsCN00hLIvjL/zCFJybvDUZvjj/I5LSdcGT8VO/7ScBWokbB1H74LTb0xYZk2WapuUkSWpZiYP/ZTpoYpwL0Rrenr8N/RiYeur3/cNBvgSx8i9Gx/0OkZPa05yc9E8yMPRHsjQyLiKu1zgdD2wJ9z//MwBjj8Lww5iKB7un2zpxUodbBTI2c7Jz1rR9YB6QGvsJGIO5Pgf7Yve0qx3HQScT1kqy0E/ppZ1bpAtkiI/5GaQXygAIWBxdnSBViUlOt9qu7myL/LSzcxn55MQ/g4hArnzfbx9OWkRAKZq+8ETLtHT39G0YBu6Gk0WxmYELfnQw0xxd0CT/m1tMObYcbnEtWv29ge0yuH/mRoL2fVyj/ezjtiarmrsf/l4iZn1Ggr86r97aLtIObGPJ8jzX8yC82ukgQ84X9lQuaN0BZYSl9dFZhBpVyc3dEiWDIDrvJ2hUTrKONT0gy0JwPXw9CGLX39jA5eIeNjicCK6tEsoqD6niMhPee7XvuxsptoDRbm/I5kkHdRUlMKkqfxSEaQnHcnhnNrIDSJOBp17etwVGYlRGQfu0g9kx4dGGdU8YWlhnNvYBw7y3YWQxJsEP3uxosqdvwBaR5SSto7FUgL+eennfFh5jsf3mSCci5aocI2lKTeE887sYuoQ+GtvAgg2rRHgM/A87LUzxUsv6OrO6Jwv1R6s/Cly5WVuiBNdvvuoklmMVk/XZiKj+R/Uai1zOSuUCJ1v79AqyrIQns7d+7FJ+/tRr/CZQjPmxgsHHqVitPp15vsgTB9Mh3etNut3uhDDt9VpC87Ti9QVdGOV3mjGQ4T71Or8J8K8cpfbF9SQp41xpIRlNT08bO4fXB7vjEeHqany5dX34atZoJAtkid7NwFMukxsRuJjEvdC+nIgyZFlpEb7VnR3+3b6wqZp6515gSNsOB83Rb9bDvJs709ehAuZtBFle4DL7j34JH0yXbornw9PLZkinPoZngMvSs0IqJzO00HCv9Yks2lbp13DX9jdFbAXMGNx2HHNRAWRJAvxf27eXkR/HxBIQTyhn54V3AFtJ+yFZqQzRR/tIlvvU6/wWcAMWnne0uUTWolFxymOoVoWbQpx54sVAIVmW6Xz5KEyq9U3E1EboB+n6o77GZHAFWQ5qA0vPxiFgwq1Kk0WnQa3tLZv5m+CHEF+c6vRgq5gsy0m4no0kbggGZMsmBsESWalwS47aaiPqD2AfdLmwuFNsWVZCud5bH/OiXBPJIgtJ5lbSOQ5/5Jq+B4D+Ue0ZHZ06q0oyjqn/vMItME5NJPucK8uyuONYwhmOfFIZFXZFcBUD+7yzkihCwrff227xaSD4y5Y198XOSYg7aJXJ8lTAZPvoQb09F/r5TbRKWOaRhZp/OJa+r+wfsq7vA99DFfncKXXYJY5G+dHqDlnSgbhKhNk6DWMPKnxK7SrwPxwlSSmyMEa7q7RSDlkmbqTm8EoBVHhLdCEOz6fm8uIWvQi/bzXequxTQDDS9lxUEzKPLAx4pv4Yxn6FyQLmNndKpIRJ4gj9KlLu0lqprsfShEchfGCYG5rZkk009l1Z4QAvPX+8vZoryp9F5yxYVqIBMsUw7XOZSptvZFBAVmevymUaXF103CrBlUCyGu0YbWfhCYruDqC9BdJO4cfyPI8sU98Oqizj3Rh1QymytL6NlL+UDPuKebYdfRhdnu9dX1+/vxyP/qWtHLKS4TioMFngX051CbK4wzvXhhssbWYxg3BwdtLvdjq61er1etPtjpNrWfo4rLAfxtGhLkeW6P6d9QBwo7PZdst0yhQOk2TWVDkpeAXgN49WqYY5WRy3sqwHwMXrLjV8lyELM/XhuMJkBeNJqUwHyZoNMhYJ4fmE6lxJmZYby7F65xUmy77uleosshJUWVmL3O+30vsDq6qs86eY+jSsKFm4s0WnulSmg2Sd2EuLxHB/1uF63iRf4ikmN2fNSnLlSdQBzV9XV5Pny2wdL9QLcNEo10902hZZru+Ncz4cG+BVr2fLM1QgR12rXHOt09sLFh5AZF3M6BSjLNAEpweY8FSRLJByt1euE5k7na3FBzDMfpoNnpSyzDnj3NLHEirY8u1hSmfvtRxRajc0M8jyQe0PrfQYu6wbmq1TG1QFm2oYGOEJqskyFWXL7Bws/TyS9Ud3naZvyxTWLPIVLHr0Px9uYES/mzynE20BzjJZrqdiJGuNzlNqKWk0VU5V7B8NV8rB0Q8li1q4hvuqgtVSZsigOTSXOxwyl5lNFozWIwtjX3ccVPA2IsZ39aaLZJUSpZlkGcZ6ZOFjxGSXriY8xYK/BnSvfjQpsKx7/5x3QPaWA7wBatRFru+7cAlO4W0DFHW9S0NWjyzFyIusfJXEuZM4dOHSoVy7dyYftgxhjhf4o4lj3l2p4GkRK0kKugDoJUi6qp4bwmqyzOlw2EjR7//5P4v2AKjTRn827l4xx3DYf57v1kQW6jW/qmSZRWTp3541P+HdYi8aAzd+11zEs/99vpFkwUqy/gohbS6ic5ulZmPPd9NyC3xuYACIw8P8A5A7sqrohgYJ8AKdhWQdYm6SvlZlzAFh6Y3xB0mx9NzBi/wyNQW2HmbS1QvwDFj8ZoiZYd7eL0wka90b9ND+tTBmmZNLzMCr2F2qnhWL0vXJYmrczZcOPBWlxsqGiX8eAgaq2c+1q8eR5YZbnaLTIsscvoXqNWlBwCREL82i2t0j3DA61EUZgWU29jEAVu7wEKOsDF/wopsCRNZ6YIMXhdVEbh4NDPCq54fohuFrXcQWkbWex2B8L6oyO4nYiSo5jgx1lv2+wwvODdcnSxbFd+TK0b/ZNBboOy3pu4ExH+z/bpu5JxYWkeWutS4IzjoFWwYm2r1zqRRULmYxVOByf5g/buYRZLnhsU6K7pZZqBxQk1bPsjzpwuD3/HwnJav8stJLYhc7SVIkRkSjbdBFze+4ru8GQEvIj1lCH65xK4IySNVuFJWpLcF3sjomKoLwrKDXgcgKJLWKKgpxmQ8IPoFGmQZX3YIpUpYj9HFYXbIwaOWXHUTrBsm6H36bzRZ+z51netRDKc86Vr7OoqLypV3FvHAOGLzKtwRBMWt+xBcE2QN43M8qQOFL7N90wcUWy3GO2hXu7YZwr6d5zhgLYZ58aN9j/93iz1Lne9h+gA8vrQLZZiX6NFLVvdDqBlfbIp00mrm65/3+XVn56M9/L5qWJz1o/mfY/1RRRjx3Co7yhdPZCqobsgxQgxeC85xBdXRNxZkPcOV6a7FUShlec2jNX+AQ0rl3uYaFob+/Xz3x/hmeCs47uWQ5KJrmXHCzt7VoWaTDm0Pz/qwMc5n0GCifLqFvKrwX4m4YwJtfrDyy6KKvkx50OVZna7ECATEdaQsxJ8tM456D2VMeWcLc3q1yG7yhfDc6aTk8e0tMo8/cbHiWZUn5rEHjgi1+v0PQjdhssmjK5M4gZpUN7wbppHDcTZsQCiHQDZd/1IVnDcsq1TtIR9XTcz+u8mh9plgcnbYKDsS+FVnCFP1mDFUe7hAoD4Ld7uruP55FFhBZ+TWeL+EIPr22lVHtGW3SkNGJXtkK89VkmXrWBr+K/aSfwVD4BP+d3A3GX4+sANSzxuqOpfTJPJmcU420gsdgDwEXaFoFCTCtlbeWdkOUHbAGWTRyDCp6veILxP6bvhC8qGr3NWSlsLq7AWwAWaBoyJGguR4FZC27YWmyLEsIGnPkbgBZhoR4cJpO6/s+ZGHSKI720zlb1SeLKaCZUGZBe2gWWVCSLAdTzO6W7fpMbgJZBngh5dNrkjWXDitFqZU4vY9RXMFO0kzg33iAO2LBIdbXkMUTTbd9vQq2v2cAkCw3/vC7XpescumOJfojSaObN4IshaGaBf5o9n3I4o2zkD6hbSO4MuYpCISUI+bU0K2S6c7SJCguePc6ZC7mhNU8Ws2EZwTR+y53RKbayiTLBXdFboixXUxfX8RVrjVkIZCMrtLnlUwzyVLGKrIcsX0TqbiCDVmFAJCuH51PROaxWA5ZpLMKYhZK9+7HdwDM27CP8WPMd0FF593M7rbHkEUffjj9awBu2jKyUQCPPnVHRe8npqmFw/mDDg+LL1/7xZhlZJKVHn9wYSV8+nrgpyO3Kjy8LheYvYWXDVKnCxUbK+NCeT5Z6e+OpYd7kauqfEJRCAUslqPb6fw4iz+SLGtuXmZ/N3RZ9gzmjYDvGbHRvOnSIHPr8WTRSWTvdkSivdpF9yLQ8L6Y+Rfv+yiQHm9ZdJg/fN200w/c2QzhngG6+yClC+HVi67FNf98G7EkWQL3BWp8eH50GcVoV5sY2B9AguvJwXlfC+58+qy+8pZlmY4e/tUOGVR5vl9ZeKAwLttvT7pJknAxP/cpR1Y6zVpPX12FKiaV+xRv/8eCge8rAyXX+LTrJOns2sy5DuAGX+aGFo1FTBLRmx0M6HxQepW7z/QIkNyWMXPjeLD7iqzLySPrQdVB0BaoJ7Otpo0KRAUBsA3LCLMg5xOQPM/w7YvxzbBDE7J452C58y9NdzgX9EHTJnpsb3h7ObCBvkGHE1VuAlkfGLr86I+92aQlnOmSZRm+Uh/6NJNNaOr4mx4dX0V+vN6djM2B9JgLvj0YH/8+7B4sXrgBFcgPdBWWPt5p+9eTy2ZoxG46kvpnhPIDDzw/VvZgdP73UjOblPJZX+ve9i8vrsdN20dhFRvB5kr2YjC0Es+X9GHjKrQXLQttyG3/3+nx1lU7siXQRy5Q8TjnKsbGg7ZFFEuAWYtrLLmXZzDXfoc8BShjmUdpoJcOT3qS91oFkKCq2SkJxn5av1sfNVk1atSoUaNGjRo1atSoUaNGjRo1atSoUaNGjRo1atSoUVH8P2MMFPQXXROAAAAAAElFTkSuQmCC" alt=""   height="50px" width="100px"></a>
-    <a href="https://www.instagram.com/"><img src="https://miro.medium.com/v2/resize:fit:1400/1*V7GYJQ_4lykfDzOf9q17eA.jpeg" alt="" height="50px" width="100px"></a>
-    <hr><hr>
-</footer>
+        <img src="" alt="">
+    </footer>
 </body>
 </html>
