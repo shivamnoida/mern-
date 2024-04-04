@@ -1,0 +1,13 @@
+1 why we can use index name of the first file?
+2.why we can use h6 ?
+3.how can off suggestion in form
+abbr
+q
+blockquote
+addresss
+cite
+bdo
+audio tag
+html and htmlfile differnce
+css
+  /* width=border(l&r)+content+padding; */ why ?

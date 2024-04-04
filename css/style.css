@@ -1,0 +1,25 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* width=border(l&r)+content+padding; */
+}
+#heading{
+     background-color: red;
+        /* margin: 30px;
+   width:440px;/* margin: 16px; */
+     /* padding: 16px; */ 
+   box-sizing: border-box;
+     border: 10px solid green;
+}
+.class_1 {   
+    /* to select the inside element inside the class */
+    
+    p{
+        color: blue;
+        background-color: blueviolet;
+        width: fit-content; 
+        
+    }
+    
+}
